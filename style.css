@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+:root{
+    --primary-color: #2962FF;
+    --text-color: #C3C2C7;
+}
+
+body{
+    color: #2962FF;
+    background-color: #C3C2C7;
+}
+
+h1{
+    text-align: center;
+    font-family: 'MonteCarlo', cursive;
+    font-size: xx-large;
+    
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    font-size: large;
+}
+
+.navbar{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 1rem;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'MonteCarlo', cursive;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 2rem;
+
+}
+.hero-img{
+    max-width: 420px;
+    margin: auto;
+    display: block;
+    
+}
+
+.about{
+    color: #2962FF;
+    padding: 1rem;
+    display: block;
+    max-width: 450px;
+    margin: auto;
+}
+
+input,label {
+    display: block;
+}
+
+input{
+    margin-bottom: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+    color: red;
+    
+}
+
+#check-number{
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    background-color: var(--text-color);
+    border-color: var(--primary-color);
+    color:var(--primary-color);
+    padding: 0.5rem;
+    font-size: large;
+    font-weight: bolder;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+
+}
+
+#check-number:hover{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    
+}
+
