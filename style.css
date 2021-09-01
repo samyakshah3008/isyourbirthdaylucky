@@ -87,3 +87,22 @@ input{
     
 }
 
+.footer{
+    padding: 2rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 6.3rem;
+    
+}
+
+.footer-pills{
+    font-size: x-large;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 2rem;
+
+}
+
