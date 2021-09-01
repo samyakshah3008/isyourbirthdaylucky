@@ -8,7 +8,7 @@ const outputBox = document.querySelector("#output-box")
         outputBox.style.color = "#2962FF";
         outputBox.style.fontSize = "larger"
 
-
+alert("Please note that we are not storing your data anywhere")
 
 function compareValues(sum,luckyNumber){
     if(sum%luckyNumber===0){
